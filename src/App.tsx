@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Container } from "./components/styles";
+import Slider from "./components/Slider";
 
 const App = () => {
-  return (
-    <div>
-      <h1>Hola Mundo</h1>
-    </div>
-  )
-}
+	return (
+		<div>
+			<Container>
+				<Slider />
+			</Container>
+		</div>
+	);
+};
 
-export default App
+export default App;
